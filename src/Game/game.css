@@ -1,0 +1,33 @@
+.variants{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ 
+}
+.variants .variant{
+    flex-basis: 45%;
+    margin: 2px 0;
+
+}
+.description{
+    text-align: center
+}
+.variant{
+    background-color:black;
+    border: 2px blue solid;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    border-radius: 30%;
+}
+.description{
+    background-color:black;
+    border: 2px blue solid;
+    padding: 30px;
+    color: white;
+    font-size: 22px;
+}
+.game{
+    border: 1px solid blue;
+    border-bottom:none;
+}
